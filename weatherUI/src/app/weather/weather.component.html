@@ -1,0 +1,11 @@
+<form [formGroup] = "submissionForm" class="search-bar" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <input class="input" type="text" id="name" formControlName="name" placeholder="City name">
+    </div>
+    <button mat-button type="submit">Search</button>
+</form>
+
+<div id="rectangle">
+    <div>City: {{this.weather.name}}</div>
+    <div>Visibility: {{this.weather.visibility}}</div>
+</div>

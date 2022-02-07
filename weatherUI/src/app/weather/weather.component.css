@@ -1,0 +1,24 @@
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input {
+    height: 30px;
+  }
+  
+  .mat-button {
+    margin-left: 5px;
+    background-color:white;
+    color:cornflowerblue;
+    font-size: 20px;
+  }
+
+  #rectangle {  
+    margin-top: 30px;
+    margin-left:35%;
+    width:30%;
+    height: 600px;
+    background: cornflowerblue;
+  }
