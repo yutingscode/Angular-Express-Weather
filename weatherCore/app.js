@@ -10,8 +10,8 @@ app.use(cors({origin: 'http://localhost:4200'}));
 app.post('/', (req, res) => {
   const name = req.body.name;
 
-  https.get('https://api.openweathermap.org/data/2.5/weather?q='+name+',,CA&appid=42871b67da7afda9355b694e9a045728', (resp) => {
-    
+  https.get('https://api.openweathermap.org/data/2.5/weather?q='+name+',,CA&appid=APPID', (resp) => {
+    // replace APPID with your own token
     let data = '';
     resp.on('data', (chunk) => {
       data += chunk;
